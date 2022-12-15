@@ -7,3 +7,4 @@
   from = "/api/*"
   to = "https://yog-production.up.railway.app/:splat"
   status = 200
+  force = true

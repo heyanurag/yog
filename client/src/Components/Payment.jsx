@@ -12,7 +12,7 @@ function Payment() {
   //Implement the CompletePayment function as provided
   const CompletePayment = () => {
     //Store the data on database by calling the REST API
-    fetch(`/api/payment`, {
+    fetch(`${process.env.REACT_APP_BACKEND_URL}/payment`, {
       method: "post",
       headers: {
         "Content-Type": "application/json",

@@ -162,7 +162,7 @@ router.post("/payment", (req, res) => {
                 .save()
                 .then((data) => {
                   //If user stored successfully
-                  res.status(401).json({
+                  res.status(200).json({
                     message: "Payment method inserted successfully",
                     data: data,
                     message_id: "3",
@@ -196,7 +196,7 @@ router.post("/payment", (req, res) => {
                 .save()
                 .then((data) => {
                   //If user stored successfully
-                  res.status(401).json({
+                  res.status(200).json({
                     message: "Payment method inserted successfully",
                     data: data,
                     message_id: "3",

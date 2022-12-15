@@ -125,7 +125,7 @@ router.post("/user", (req, res) => {
             .then((data) => {
               //If user stored successfully
               res
-                .status(401)
+                .status(200)
                 .json({ message: "successfull", data: data, message_id: "3" });
               return;
             })

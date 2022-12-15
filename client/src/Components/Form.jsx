@@ -25,7 +25,7 @@ function Form() {
       startDate.substr(0, 4);
 
     //Store the data on the database by calling the REST API
-    fetch(`${process.env.REACT_APP_BACKEND_URL}/user`, {
+    fetch(`/api/user`, {
       method: "post",
       headers: {
         "Content-Type": "application/json",

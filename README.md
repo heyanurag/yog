@@ -5,3 +5,7 @@
 ## You need to run Frontend and Backend separately.
 
 ## Readme for both Server & Client are provided in the respective folders.
+
+## Proposed ER Diagram
+
+![ER Diagram](./ER%20Diagram.png "ER Diagram")
